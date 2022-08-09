@@ -37,3 +37,10 @@ Model name                                                                      
 * **pycocotools**
 * **efficientnet_d3**
 
+
+## resource
+- [Train EfficientDet in TensorFlow 2 Object Detection](https://www.youtube.com/watch?v=yJg1FX2goCo&ab_channel=Roboflow)
+- [Create Dataset in Roboflow](https://www.youtube.com/watch?v=9m9GWd4hKoU&ab_channel=InabiaSolutions%26ConsultingInc)
+- [Tensorflow Object Detection in 5 Hours with Python](https://www.youtube.com/watch?v=yqkISICHH-U&t=7899s&ab_channel=NicholasRenotte)
+- [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
+- [Efficient Methods and Hardware for Deep Learning](https://stacks.stanford.edu/file/druid:qf934gh3708/EFFICIENT%20METHODS%20AND%20HARDWARE%20FOR%20DEEP%20LEARNING-augmented.pdf)
