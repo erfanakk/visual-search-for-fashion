@@ -51,9 +51,12 @@ U-Net is used as our neural network architecture framework, originated in [U-Net
 
 V-Unet (U-Net with VGG16 as the encoder and further trained on LUS) has a structure shown in the following figure. VGG16, pretrained model on ImageNet is used to replace the contracting path of U-Net as a hybrid between these structures. The whole network had 28,804,545 parameters in total.
 
-![V-Unet](V_Unet_struct.png)
+<img src="images/unet.png" width="900" height="400"/>
 
 ## Overview `Clothes segment`
+
+Picture below shows result of prediction of several images from images after cropm from object etector(first row is prediction) :
+
 
 <img src="images/seg/img1_generated.png" width="300" height="300"/> <img src="images/seg/img2_generated.png" width="300" height="300"/> <img src="images/seg/img3_generated.png" width="300" height="300"/> 
 <img src="images/seg/img1.jpg" width="300" height="300"/> <img src="images/seg/img2.jpg" width="300" height="300"/> <img src="images/seg/img3.jpg" width="300" height="300"/> 
@@ -70,3 +73,6 @@ V-Unet (U-Net with VGG16 as the encoder and further trained on LUS) has a struct
 - [Tensorflow Object Detection in 5 Hours with Python](https://www.youtube.com/watch?v=yqkISICHH-U&t=7899s&ab_channel=NicholasRenotte)
 - [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
 - [Efficient Methods and Hardware for Deep Learning](https://stacks.stanford.edu/file/druid:qf934gh3708/EFFICIENT%20METHODS%20AND%20HARDWARE%20FOR%20DEEP%20LEARNING-augmented.pdf)
+- [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://arxiv.org/abs/1505.04597)
+- [Implementing original U-Net from scratch using PyTorch](https://www.youtube.com/watch?v=u1loyDCoGbE)
+
