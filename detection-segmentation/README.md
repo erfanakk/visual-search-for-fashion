@@ -55,7 +55,7 @@ V-Unet (U-Net with VGG16 as the encoder and further trained on LUS) has a struct
 
 ## Overview `Clothes segment`
 
-<img src="images/img1.jpg" width="300" height="300"/> <img src="images/img2.jpg" width="300" height="300"/> <img src="images/img3.jpg" width="300" height="300"/> 
+<img src="images/seg/img1_generated.png" width="300" height="300"/> <img src="images/seg/img2_generated.png" width="300" height="300"/> <img src="images/seg/img3_generated.png" width="300" height="300"/> 
 <img src="images/seg/img1.jpg" width="300" height="300"/> <img src="images/seg/img2.jpg" width="300" height="300"/> <img src="images/seg/img3.jpg" width="300" height="300"/> 
 
 
