@@ -9,7 +9,9 @@ Over time, search has now been powered using AI and visual search deep learning 
 
 Just like Google image search, here we are going to build a simple Image search engine using the Deep learning model VGG16. Given a query image, we are going to display images similar to it. We are going to implement it using Keras (It is an open-source software library that provides a Python interface for artificial neural networks
 
-### Example 
+### Example :
+
+img src="images/result1.png" width="300" height="300"/>
 
 
 
