@@ -2,6 +2,8 @@
 # object detection top clothing
 [![TensorFlow 2.2](https://img.shields.io/badge/TensorFlow-2.2-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.2.0)
 [![Python 3.8](https://img.shields.io/badge/Python-3.8-3776AB)](https://www.python.org/downloads/release/python-360/)
+[![pytorch 1.9](https://img.shields.io/badge/PyTorch-v1.9.0-red.svg)](https://pytorch.org/)
+
 
 - Object Detection using [TensorFlow-Object-Detection_API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
 
@@ -20,8 +22,11 @@ Model name                                                                      
 [EfficientDet D7 1536x1536](http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d7_coco17_tpu-32.tar.gz)                             | 325         | 51.2           | Boxes
 
 
-## Overview
-`Deep Clothes Detector` is a clothes detection framework based on [EfficientDet D3([https://github.com/rbgirshick/fast-rcnn](http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d3_coco17_tpu-32.tar.gz). Given a fashion image, this software finds and localizes potential *upper-body clothes*
+## Overview `Clothes Detector`
+
+- Object detection combines classification and localization to determine what objects are in the image or video and specify where they are in the image. It applies classification to distinct objects and uses bounding boxes, as shown below.
+
+`Deep Clothes Detector` is a clothes detection framework based on [EfficientDet D3](http://download.tensorflow.org/models/object_detection/tf2/20200711/efficientdet_d3_coco17_tpu-32.tar.gz). Given a fashion image, this software finds and localizes potential *upper-body clothes*
 
 
 
@@ -36,6 +41,21 @@ Model name                                                                      
 * **tensorboard**
 * **pycocotools**
 * **efficientnet_d3**
+
+
+## model segmentation
+
+U-Net is used as our neural network architecture framework, originated in [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/). To implement transfer learning, we designed the following two models for our LUS segmentation task, V-Unet and X-Unet, inspired by two similar research on ultrasound segmentation: [Automatic detection of lumen and media in the IVUS images using U-Net with VGG16 Encoder](https://arxiv.org/pdf/1806.07554.pdf) and [Fine-Tuning U-Net for Ultrasound Image Segmentation: Different Layers, Different Outcomes](https://ieeexplore.ieee.org/document/9162061?denied=). Dice coefficient (DICE) is used as the evaluation metric. 
+
+### V-Unet models and versions
+
+V-Unet (U-Net with VGG16 as the encoder and further trained on LUS) has a structure shown in the following figure. VGG16, pretrained model on ImageNet is used to replace the contracting path of U-Net as a hybrid between these structures. The whole network had 28,804,545 parameters in total.
+
+![V-Unet](V_Unet_struct.png)
+
+## Overview `Clothes segment`
+
+
 
 
 ## resource
