@@ -30,3 +30,12 @@
 - or this work we have used triplet data to train and validate. Triplet data consists of a query image, positive image (similar to query image) and a negative image (relatively dissimilar to query image as positive image). The query image can either be a Wild Image(where people wearing the cloth in everyday uncontrolled settings) or Catalog Image(model wearing cloth in controlled settings as shown in an eCommerce app). While the positive and negative images can be In-class(same product category as query image) or Out-of-class(other product category than query image).
 
 <img src="images/model3.png" width="500" height="300"/>
+
+### output of model 
+
+The process of converting an image into a `vector of n-dimensions` is called dimensionality reduction, because it reduces the number of dimensions in the original data set. This allows for easier comparison between different images and also makes it easier for computers to process these images, as opposed to having millions or even billions of dimensions in each image.
+
+After all layers have been produced from the input image, they are compared to create an output image that shows what similarities there might be between two different images (or even more than two).
+
+<img src="images/embedded.jpg" width="800" height="500"/>
+
