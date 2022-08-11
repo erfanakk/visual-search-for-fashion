@@ -39,3 +39,6 @@ After all layers have been produced from the input image, they are compared to c
 
 <img src="images/embedded.jpg" width="800" height="500"/>
 
+## Conclusion
+
+- With the advancements in machine learning and deep learning, we are able to do things that were unthinkable a decade ago. This project is just one example of how these technologies can be used to improve people's lives by helping them find clothes they will like more easily.
