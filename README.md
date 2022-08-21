@@ -44,6 +44,12 @@ After all layers have been produced from the input image, they are compared to c
 
 - With the advancements in machine learning and deep learning, we are able to do things that were unthinkable a decade ago. This project is just one example of how these technologies can be used to improve people's lives by helping them find clothes they will like more easily.
 
+## Feedback
+
+If you have any feedback, please reach out to us at akbarnezhad1380@gmail.com
+
+
+
 ## resource
 
 - [Siamese Network](https://www.youtube.com/watch?v=6jfw8MuKwpI&ab_channel=DeepLearningAI)
