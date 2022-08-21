@@ -5,6 +5,10 @@
 [![pytorch 1.9](https://img.shields.io/badge/PyTorch-v1.9.0-red.svg)](https://pytorch.org/)
 
 
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erfan-akbarnezhad-190089221/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiFWwjUy4QY%2BCTXM6P7%2FSBg%3D%3D)
+
+
 - Object Detection using [TensorFlow-Object-Detection_API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
 
 - Object detection allows for the recognition, detection of multiple objects within an image. It provides us a much better understanding of an image as a whole as opposed to just visual recognition.
