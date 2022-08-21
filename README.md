@@ -1,6 +1,7 @@
 # visual-search-for-fashion
 [![TensorFlow 2.2](https://img.shields.io/badge/TensorFlow-2.2-FF6F00?logo=tensorflow)](https://github.com/tensorflow/tensorflow/releases/tag/v2.2.0)
 ![Python 3.8](https://img.shields.io/badge/Python-3.8-3776AB)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erfan-akbarnezhad-190089221/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BiFWwjUy4QY%2BCTXM6P7%2FSBg%3D%3D)
 
 - Visual search is a process of finding items or information using images. It is a common task for users of various devices, such as computers, smartphones, and televisions. In the context of search engines, visual search is the process of ranking webpages according to how well they are able to present visual content.
 
